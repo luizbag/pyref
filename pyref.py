@@ -47,7 +47,7 @@ class MainWindow(object):
                 pass
         
         def on_fechar_arquivo_menu_item_activate(self, widget):
-                pass
+                models.close()
 
 	def on_aboutMenuItem_activate(self, widget):
                 self.about.run()
